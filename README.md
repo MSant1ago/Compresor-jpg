@@ -4,11 +4,11 @@ Script de compresión profesional que supera a los compresores comerciales con a
 ## Descripción
 
 Pipeline optimizado de compresión .jpg con ImageMagick que combina técnicas avanzadas:
-- Redimensionamiento inteligente.
-- Eliminación de metadatos. 
-- Codificación progresiva.
+- Redimensionamiento inteligente
+- Eliminación de metadatos
+- Codificación progresiva
 - Submuestreo cromático 4:2:0
-- Ajustes profesionales de nitidez y color.
+- Ajustes profesionales de nitidez y color
 
 *Ideal para documentos técnicos, reportes de ingeniería, archivos profesionales y fotografías de alta resolución.*
 
