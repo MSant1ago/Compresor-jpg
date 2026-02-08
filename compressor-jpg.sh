@@ -1,5 +1,5 @@
 #!/bin/bash
-# Version: 1.0.0
+# Version: 1.0.1
 # 18-enero-2026
 # Script: compressor-jpg.sh
 # Descripción: Comprime todas las imágenes en [.jpg]
@@ -25,13 +25,10 @@ for img in *.jpg; do
     magick "$img" \
 		-resize 1600x1600 \
 		-strip \
-		-interlace Plane \
 		-sampling-factor 4:2:0 \
-		-gaussian-blur 0.05 \
+		-define jpeg:dct-method=integer \
+		-define jpeg:optimize-coding=true \
 		-quality 95 \
-		-modulate 105,110,100 \
-		-define jpeg:dct-method=float \
-		-sharpen 0x2 \
 		"$salida"
   fi
 done
