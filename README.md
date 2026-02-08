@@ -54,10 +54,10 @@ Ejemplo Real (Puede variar en función del peso)
 | `foto_proyecto.jpg` | 3.4 MB | 0.7 MB | **79.4%** |
 
 ## Precauciones
-- No modifica archivos originales. (Crea copias)
-- Verifica instalación de ImageMagick: `magick --version`, git bash
-- Solo procesa directorio actual (no subdirectorios)
-- Optimizado para fotografías y documentos escaneados
+- No modifica archivos originales. (Crea copias).
+- Verifica instalación de ImageMagick: `magick --version`, git bash.
+- Solo procesa directorio actual (no subdirectorios).
+- Optimizado para fotografías y documentos escaneados.
 
 ## Autor
 Ing. Miguel S. Jingo \
