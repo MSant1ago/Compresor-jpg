@@ -20,11 +20,11 @@ Pipeline optimizado de compresión .jpg con ImageMagick que combina técnicas av
 ## Instalación
 
 ```bash
-# Descargar el script
-curl -O https://raw.githubusercontent.com/MSant1ago/compressor-jpg/main/compressor-jpg.sh
+# Descargar el script / Clonar
+git clone https://github.com/MSant1ago/Compresor-jpg.git
 
-# Dar permisos de ejecución (Linux/macOS)
-chmod +x compressor-jpg.sh
+# Descargar ZIP
+En <Code> hacer clic y download ZIP
 ```
 
 ## USO
@@ -60,4 +60,4 @@ Ejemplo Real (Puede variar en función del peso)
 - Optimizado para fotografías (.jpg) y no documentos escaneados.
 
 ## Autor
-- Imbabura - Ecuador
+- Ibarra - Ecuador
