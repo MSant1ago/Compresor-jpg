@@ -14,7 +14,7 @@ Pipeline optimizado de compresión .jpg con ImageMagick que combina técnicas av
 
 ## Requisitos minimos
 - ImageMagick | 7.x o superior |
-- Bash Shell | 4.x o superior |
+- Git | 2.x o superior |
 - SO | Windows (Git Bash) / Linux / macOS |
 
 ## Instalación
@@ -29,8 +29,8 @@ chmod +x compressor-jpg.sh
 
 ## USO
 ### Pasos básicos
-1. **Ubicar el script** en el directorio donde se enecuentran los archivos `.jpg`
-2. **Ejecutar** desde terminal (Hacer clic):
+1. **Ubicar el script** en el directorio donde se enecuentren los archivos `.jpg`
+2. **Ejecutar** desde la terminal o hacer doble clic en el ejecutable `[compressor-jpg]`:
 ```bash
 ./compressor-jpg.sh
 ```
@@ -55,10 +55,9 @@ Ejemplo Real (Puede variar en función del peso)
 
 ## Precauciones
 - No modifica archivos originales. (Crea copias).
-- Verifica instalación de ImageMagick: `magick --version`, git bash.
+- Verifica la instalación de ImageMagick: `magick --version` en git bash.
 - Solo procesa directorio actual (no subdirectorios).
-- Optimizado para fotografías y documentos escaneados.
+- Optimizado para fotografías (.jpg) y no documentos escaneados.
 
 ## Autor
-Ing. Miguel S. Jingo \
-*Imbabura - Ecuador*
+- Imbabura - Ecuador
